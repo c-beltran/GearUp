@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="assets/ball-icon.png" rel="shortcut icon">
+	<link href="assets/images/ball-icon.png" rel="shortcut icon">
 	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>GearUp</title>
-
-
-
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/libraries/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body data-spy="scroll" data-target="#mainNav">
 	<nav id="mainNav" class="navbar navbar-inverse navbar-inverse navbar-fixed-top">
 		<div class="container">
@@ -29,8 +27,8 @@
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				
-				
+
+
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#home">Home</a></li>
 					<li><a href="#services">Common Disasters</a></li>
@@ -42,13 +40,13 @@
 							<li><a href="tel:911"> <i class="fa fa-ambulance" aria-hidden="true"> Emergency 911</i></a></li>
 						</ul>
 					</li>
-					
+
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container -->
 	</nav>
 	<div id ="body">
-		
+
 		<section id="body1">
 			<div class="container" id="home">
 			<div class="row">
@@ -56,19 +54,21 @@
 					<div class="content">
 						<h1 >Prepare for a safer future</h1>
 						<h4>Create your own disaster prevention plan!</h4>
-						<hr>
+						<hr class="space">
 						<a href="#services"><button class="btn btn-default btn-lg hvr-float-shadow" id="start" ><i class="fa fa-handshake-o fa-lg" aria-hidden="true"></i> Get Started</button></a>
 					</div>
-					
+
 				</div>
 				<div class="col-md-4">
 					<div class="content">
-						<h1>News: </h1>
-
-						<input id="newsQuery" type="text"/>
-						<button id ="shelter"> Submit</button>
-						<div id="result">
-						  <ul id="myUl"></ul>
+						<div class="pl-box text-center">
+							<h1>News discovery: </h1>
+							<h5>Powered by IBM Watson.</h5>
+							<input id="newsQuery" type="text"/>
+							<button id ="shelter"> Search</button>
+							<div id="result">
+							  <ul id="myUl"></ul>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -81,11 +81,11 @@
 					<div  class=services>
 						<h1 id="services" class="text-center" >Learn More:</h1>
 						<h3 class="text-center">Dedicated to Saving Lives!</h3>
-						<hr>
+						<hr class="space">
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="thumbnail img-responsive ovr">
-							<img src="assets/Hurricane.jpg">
+							<img src="assets/images/Hurricane.jpg">
 							<div class="overlayLeft">
 								<div class="text">Hurricane</div>
 							</div>
@@ -93,7 +93,7 @@
 					</div>
 					<div class="col-lg-4 col-sm-6">
 					<div class="thumbnail img-responsive ovr">
-							<img src="assets/WildFire.jpg">
+							<img src="assets/images/WildFire.jpg">
 							<div class="overlay">
 								<div class="text">Wildfire </div>
 							</div>
@@ -101,7 +101,7 @@
 					</div>
 					<div class="col-lg-4 col-sm-6" >
 						<div class="thumbnail img-responsive ovr">
-							<img src="assets/WinterStorm.jpg">
+							<img src="assets/images/WinterStorm.jpg">
 							<div class="overlay">
 								<div class="text">Winter Storm</div>
 							</div>
@@ -111,7 +111,7 @@
 
 					<div class="col-lg-4 col-sm-6">
 						<div class="thumbnail img-responsive ovr">
-							<img src="assets/Tornado.jpg">
+							<img src="assets/images/Tornado.jpg">
 							<div class="overlayLeft">
 								<div class="text">Tornado</div>
 							</div>
@@ -119,7 +119,7 @@
 					</div>
 					<div class="col-lg-4 col-sm-6">
 					<div class="thumbnail img-responsive ovr">
-							<img src="assets/Flood.jpg">
+							<img src="assets/images/Flood.jpg">
 							<div class="overlay">
 								<div class="text">Flood</div>
 							</div>
@@ -127,7 +127,7 @@
 					</div>
 					<div class="col-lg-4 col-sm-6" >
 						<div class="thumbnail img-responsive ovr">
-							<img src="assets/Earthquake.jpg">
+							<img src="assets/images/Earthquake.jpg">
 							<div class="overlay">
 								<div class="text">Earthquake</div>
 							</div>
@@ -137,16 +137,16 @@
 				</div>
 			</div>
 		</section>
-		
+
 	 </div>
-		<hr>
+		<hr class="space">
 	 <footer>
       <p class="text-center text-primary">Created by: The Crew for the Cuny Hackathon 2017.</p>
-     </footer>		
+     </footer>
 	</div>
 
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="assets/libraries/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/libraries/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 
 </body>
