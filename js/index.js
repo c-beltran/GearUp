@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		})
 	
 		document.getElementById('shelter').addEventListener("click", function( innerEvent ) {
-					// var url = "https://data.cityofnewyork.us/resource/addd-ji6a.json"
 					var baseUrl = "https://gearup.mybluemix.net/news?";
 					var queryParam = "qry=";
 					var query = $("#newsQuery").val();
