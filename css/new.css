@@ -1,0 +1,60 @@
+body{
+	background: #EEE;
+}
+#getReady>h3{
+    font: bold 30px Tahoma;
+    text-shadow: 10px 10px 5px #66CCCC;
+}
+#title h1{
+    font: 50px Tahoma;
+    margin-top: 90px;
+    margin-left: 24px;
+}
+.body{
+    font: bold 20px Tahoma;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+p,ul{
+    font: 20px Tahoma;
+	
+}
+th{
+    font-size: 25px;
+    background: #66CCCC;
+}
+#yellow{
+    font: bold 20px Tahoma;
+    background: yellow;
+}
+#lightgreen{
+    font: bold 20px Tahoma;
+    background: lightgreen;
+}
+#green{
+    font: bold 20px Tahoma;
+    background: green;
+}
+#red{
+    font: bold 20px Tahoma;
+    background: red;
+}
+#darkred{
+    font: bold 20px Tahoma;
+    color: white;
+    background: darkred;
+}
