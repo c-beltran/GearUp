@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="assets/ball-icon.png" rel="shortcut icon">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>GearUp</title>
+
+
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target="#mainNav">
+	<nav id="mainNav" class="navbar navbar-inverse navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home"><i class="fa fa-tachometer fa-lg" aria-hidden="true"></i> GearUp </a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#home">Home</a></li>
+					<li><a href="#services">Requirements</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login  <i class="fa fa-user-circle" aria-hidden="true"></i><span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> Sign In</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#"> <i class="fa fa-user-plus" aria-hidden="true"> Sign Up</i></a></li>
+						</ul>
+					</li>
+					
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container -->
+	</nav>
+
+	<div id ="body">
+		<div class="container" id="home">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="content">
+						<h1 >Prepare for a safer future</h1>
+						<h4>Create your own disaster prevention plan!</h4>
+						<hr>
+						<a href="#services"><button class="btn btn-default btn-lg hvr-float-shadow" id="start" ><i class="fa fa-handshake-o fa-lg" aria-hidden="true"></i> Get Started</button></a>
+					</div>
+					
+				</div>
+				<div class="col-md-4">
+					<div class="content">
+						<h1>News: </h1>
+
+						<input type="text"/>
+						<button id ="shelter"> Submit</button>
+						<div id="result">
+						  <ul id="myOl"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr id="divide">
+
+
+		
+		<div  class="row margins display-flex">
+			<div class="" >
+				<div  class=services>
+					<h1 id="services" class="text-center" >Learn More:</h1>
+					<h3 class="text-center">Dedicated to Saving Lives!</h3>
+					<hr>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="thumbnail img-responsive ovr">
+						<img src="assets/Hurricane.jpg">
+						<div class="overlayLeft">
+							<div class="text">Hurricane</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail img-responsive ovr">
+						<img src="assets/Wildfire.jpg">
+						<div class="overlay">
+							<div class="text">Wildfire</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6" >
+					<div class="thumbnail img-responsive ovr">
+						<img src="assets/Winterstorm.jpg">
+						<div class="overlay">
+							<div class="text">Winterstorm</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-sm-6">
+					<div class="thumbnail img-responsive ovr">
+						<img src="assets/Tornado.jpg">
+						<div class="overlayLeft">
+							<div class="text">Tornado</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail img-responsive ovr">
+						<img src="assets/flood.jpg">
+						<div class="overlay">
+							<div class="text">Flood</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6" >
+					<div class="thumbnail img-responsive ovr">
+						<img src="assets/earthquake.jpg">
+						<div class="overlay">
+							<div class="text">Earthquake</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+			
+			
+		</div>
+		
+		
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>
