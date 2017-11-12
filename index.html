@@ -33,13 +33,13 @@
 				
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#home">Home</a></li>
-					<li><a href="#services">Requirements</a></li>
+					<li><a href="#services">Common Disasters</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login  <i class="fa fa-user-circle" aria-hidden="true"></i><span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Assistant  <i class="fa fa-user-circle" aria-hidden="true"></i><span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> Sign In</a></li>
+							<li><a href="tel:311"><i class="fa fa-user" aria-hidden="true"></i> Non-emergency 311</a></li>
 							<li role="separator" class="divider"></li>
-							<li><a href="#"> <i class="fa fa-user-plus" aria-hidden="true"> Sign Up</i></a></li>
+							<li><a href="tel:911"> <i class="fa fa-ambulance" aria-hidden="true"> Emergency 911</i></a></li>
 						</ul>
 					</li>
 					
@@ -47,9 +47,10 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container -->
 	</nav>
-
 	<div id ="body">
-		<div class="container" id="home">
+		
+		<section id="body1">
+			<div class="container" id="home">
 			<div class="row">
 				<div class="col-md-8">
 					<div class="content">
@@ -72,77 +73,76 @@
 					</div>
 				</div>
 			</div>
+		</section>
 
-			<hr id="divide">
-
-
-		
-		<div  class="row margins display-flex">
-			<div class="" >
-				<div  class=services>
-					<h1 id="services" class="text-center" >Learn More:</h1>
-					<h3 class="text-center">Dedicated to Saving Lives!</h3>
-					<hr>
-				</div>
-				<div class="col-lg-4 col-sm-6">
+		<section id="body2">
+			<div  class="row margins display-flex">
+				<div id="side-space" >
+					<div  class=services>
+						<h1 id="services" class="text-center" >Learn More:</h1>
+						<h3 class="text-center">Dedicated to Saving Lives!</h3>
+						<hr>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="thumbnail img-responsive ovr">
+							<img src="assets/Hurricane.jpg">
+							<div class="overlayLeft">
+								<div class="text">Hurricane</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
 					<div class="thumbnail img-responsive ovr">
-						<img src="assets/Hurricane.jpg">
-						<div class="overlayLeft">
-							<div class="text">Hurricane</div>
+							<img src="assets/WildFire.jpg">
+							<div class="overlay">
+								<div class="text">Wildfire </div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6">
-				<div class="thumbnail img-responsive ovr">
-						<img src="assets/WildFire.jpg">
-						<div class="overlay">
-							<div class="text">Wildfire </div>
+					<div class="col-lg-4 col-sm-6" >
+						<div class="thumbnail img-responsive ovr">
+							<img src="assets/WinterStorm.jpg">
+							<div class="overlay">
+								<div class="text">Winter Storm</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6" >
-					<div class="thumbnail img-responsive ovr">
-						<img src="assets/WinterStorm.jpg">
-						<div class="overlay">
-							<div class="text">Winter Storm</div>
-						</div>
-					</div>
-				</div>
 
 
-				<div class="col-lg-4 col-sm-6">
+					<div class="col-lg-4 col-sm-6">
+						<div class="thumbnail img-responsive ovr">
+							<img src="assets/Tornado.jpg">
+							<div class="overlayLeft">
+								<div class="text">Tornado</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
 					<div class="thumbnail img-responsive ovr">
-						<img src="assets/Tornado.jpg">
-						<div class="overlayLeft">
-							<div class="text">Tornado</div>
+							<img src="assets/Flood.jpg">
+							<div class="overlay">
+								<div class="text">Flood</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6">
-				<div class="thumbnail img-responsive ovr">
-						<img src="assets/Flood.jpg">
-						<div class="overlay">
-							<div class="text">Flood</div>
+					<div class="col-lg-4 col-sm-6" >
+						<div class="thumbnail img-responsive ovr">
+							<img src="assets/Earthquake.jpg">
+							<div class="overlay">
+								<div class="text">Earthquake</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6" >
-					<div class="thumbnail img-responsive ovr">
-						<img src="assets/Earthquake.jpg">
-						<div class="overlay">
-							<div class="text">Earthquake</div>
-						</div>
-					</div>
-				</div>
 
+				</div>
 			</div>
-		</div>
+		</section>
 		
-			
-			
-		</div>
-		
-		
+	 </div>
+		<hr>
+	 <footer>
+      <p class="text-center text-primary">Created by: The Crew for the Cuny Hackathon 2017.</p>
+     </footer>		
 	</div>
 
 	<script src="js/jquery-3.2.1.min.js"></script>

@@ -82,10 +82,25 @@ body{
 }
 
 .navbar-inverse .navbar-brand {
-  color: #f2dede;
+  color: #fcf8e3;
+}
+
+#body1 {
+  /*color: #ffffff;*/
+  background: url("../assets/gray-background.jpg")50% 0 repeat fixed;
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+}
+#body2 {
+  color: #ffffff;
+  background: url("../assets/background (1).jpg")50% 0 repeat fixed;
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
 }
 .content{
-	padding: 120px;
+	padding: 240px 0px;
 
 	/*margin-bottom: 120px;*/
 	text-align: center;
@@ -106,6 +121,11 @@ body{
 .margins{
   height: 900px;
   vertical-align: auto;
+}
+
+.row {
+     margin-right: 0px; 
+     margin-left: 0px; 
 }
 
 #start{
