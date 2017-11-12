@@ -79,10 +79,26 @@ body{
 }
 
 .navbar-inverse .navbar-brand {
-  color: #f2dede;
+  color: #fcf8e3;
+}
+
+#body1 {
+  /*color: #ffffff;*/
+  background: url("../assets/gray-background.jpg")50% 0 repeat fixed;
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+}
+#body2 {
+  color: #ffffff;
+  background: url("../assets/background (1).jpg")50% 0 repeat fixed;
+  min-height: 750px;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: -900px;
 }
 .content{
-	padding: 120px;
+	padding: 240px 0px;
 
 	/*margin-bottom: 120px;*/
 	text-align: center;
@@ -90,6 +106,9 @@ body{
 	/*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 	0px 8px 13px rgba(0,0,0,0.1),
 	0px 18px 23px rgba(0,0,0,0.1);*/
+}
+#header-size{
+  font-size: 40px;
 }
 .cus-text{
 	padding-top: 10%;
@@ -101,8 +120,13 @@ body{
 	0px 18px 23px rgba(0,0,0,0.1);
 }
 .margins{
-  height: 900px;
+  height: auto;
   vertical-align: auto;
+}
+
+.row {
+     margin-right: 0px; 
+     margin-left: 0px; 
 }
 
 #start{
