@@ -93,7 +93,7 @@ ul {
 }
 #body1 {
   /*color: #ffffff;*/
-  background: #cdd5d8 repeat fixed;
+  background: url("../assets/images/Gray-Background.jpg") 50% 0 repeat fixed;
   min-height: 800px;
   background-size: cover;
   background-position: center;
