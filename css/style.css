@@ -73,7 +73,7 @@ body{
 .affix .navbar-brand {
   font-size: 1.25em;
 }
-} 
+}
 .navbar-inverse .navbar-nav>li>a {
   color: #f2dede;
 }
@@ -84,15 +84,15 @@ body{
 
 #body1 {
   /*color: #ffffff;*/
-  background: url("../assets/Gray-Background.jpg")50% 0 repeat fixed;
+  background: url("../assets/images/Gray-Background.jpg")50% 0 repeat fixed;
   min-height: 1000px;
   background-size: cover;
   background-position: center;
 }
 #body2 {
   color: #ffffff;
-  background: url("../assets/background (1).jpg")50% 0 repeat fixed;
-  min-height: 750px;
+  background: url("../assets/images/background (1).jpg")50% 0 repeat fixed;
+  min-height: 1000px;
   background-size: cover;
   background-position: center;
   padding-bottom: -900px;
@@ -123,6 +123,7 @@ body{
 .pl-box ul li {
   margin: 5px;
   font-weight: bold;
+}
 #header-size{
   font-size: 40px;
 }
@@ -136,13 +137,13 @@ body{
 	0px 18px 23px rgba(0,0,0,0.1);
 }
 .margins{
-  height: auto;
+  height: 900px;
   vertical-align: auto;
 }
 
 .row {
-     margin-right: 0px; 
-     margin-left: 0px; 
+     margin-right: 0px;
+     margin-left: 0px;
 }
 
 #start{
@@ -156,7 +157,7 @@ h1{
   color: rgba(1,85,177,0.97);
 }
 a:hover{
-	text-decoration: none; 
+	text-decoration: none;
 }
 .space{
 	width: 300px;
@@ -254,7 +255,7 @@ a:hover{
 }
 
 .text {
-  white-space: nowrap; 
+  white-space: nowrap;
   color: white;
   font-size: 40px;
   position: absolute;
@@ -282,14 +283,14 @@ a:hover{
   width: 100%;
   left: 0;
   opacity: 0.4;
-} 
+}
 
 
 /*==================FOOTER================
 */
 
 .full {
-    width: 100%;  
+    width: 100%;
 }
 
 .footer {
@@ -413,6 +414,5 @@ a:hover{
   padding-top: 6px;
 }
 .payments {
-  font-size: 1.5em; 
+  font-size: 1.5em;
 }
-
