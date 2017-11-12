@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="assets/images/ball-icon.png" rel="shortcut icon">
+	<link href="../assets/images/ball-icon.png" rel="shortcut icon">
 	<meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,8 +9,8 @@
 	<title>GearUp</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/libraries/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/libraries/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body data-spy="scroll" data-target="#mainNav">
@@ -22,14 +22,12 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#"><img src="assets/images/Logo.png" id="logo"></a>
+				<a href="#"><img src="../assets/images/Logo.png" id="logo"></a>
 				<!-- <a class="navbar-brand" href="#home"><i class="fa fa-tachometer fa-lg" aria-hidden="true"></i> GearUp </a> -->
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#home">Home</a></li>
 					<li><a href="#services">Common Disasters</a></li>
@@ -47,108 +45,58 @@
 		</div><!-- /.container -->
 	</nav>
 	<div id ="body">
+    <section id="pre1">
+			<div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="content">
+              <h1 class="light">Get Prepared</h1>
 
-		<section id="body1">
-			<div class="container" id="home">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="content">
-						<h1 id="header-size">Prepare for a safer future</h1>
-						<h4>Create your own disaster prevention plan!</h4>
-						<hr class="space">
-						<a href="2.preparation/preparation.html"><button class="btn btn-default btn-lg hvr-float-shadow" id="start" ><i class="fa fa-handshake-o fa-lg" aria-hidden="true"></i> Get Started</button></a>
-					</div>
+              <!-- MultiStep Form -->
+                <div class="row">
+                    <div class="col-xs-6 col-xs-offset-3">
+                        <form id="msform">
+                            <!-- progressbar -->
+                            <ul id="progressbar">
+                                <li class="active">Welcome</li>
+                                <li>Family Communication</li>
+                                <li>Safe Locations</li>
+                                <li>Share</li>
+                            </ul>
+                            <!-- fieldsets -->
+                            <fieldset>
+                                <h2 class="fs-title">Welcome</h2>
+                                <h3 class="fs-subtitle">In the following steps, we will help you prepare your Emergency kit to share with your loved ones</h3>
+                                <input type="button" name="next" class="next action-button" value="Next"/>
+                            </fieldset>
+                            <fieldset>
+                                <h2 class="fs-title">Social Profiles</h2>
+                                <h3 class="fs-subtitle">Your presence on the social network</h3>
+                                <input type="text" name="twitter" placeholder="Twitter"/>
+                                <input type="text" name="facebook" placeholder="Facebook"/>
+                                <input type="text" name="gplus" placeholder="Google Plus"/>
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                                <input type="button" name="next" class="next action-button" value="Next"/>
+                            </fieldset>
+                            <fieldset>
+                                <h2 class="fs-title">Create your account</h2>
+                                <h3 class="fs-subtitle">Fill in your credentials</h3>
+                                <input type="text" name="email" placeholder="Email"/>
+                                <input type="password" name="pass" placeholder="Password"/>
+                                <input type="password" name="cpass" placeholder="Confirm Password"/>
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                                <input type="submit" name="submit" class="submit action-button" value="Submit"/>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <!-- /.MultiStep Form -->
 
-				</div>
-				<div class="col-md-4">
-					<div class="content">
-						<div class="pl-box text-center">
-							<h1>News discovery: </h1>
-							<h5>Powered by IBM Watson.</h5>
-							<input id="newsQuery" type="text"/>
-							<button id ="shelter"> Search</button>
-							<div id="result">
-							  <ul id="myUl"></ul>
-							</div>
-						</div>
-					</div>
-				</div>
+            </div>
+          </div>
+        </div>
 			</div>
 		</section>
-
-		<section id="body2">
-			<div  class="row margins display-flex">
-				<div id="side-space" >
-					<div  class=services>
-						<h1 id="services" class="text-center" >Learn More:</h1>
-						<h3 class="text-center">Dedicated to Saving Lives!</h3>
-						<hr class="space">
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<a href="#">
-							<div class="thumbnail img-responsive ovr">
-								<img src="assets/images/Hurricane.jpg">
-								<div class="overlayLeft">
-									<div class="text">Hurricane</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<a href="#">
-							<div class="thumbnail img-responsive ovr">
-								<img src="assets/images/WildFire.jpg">
-								<div class="overlay">
-									<div class="text">Wildfire </div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6" >
-						<a href="#">
-							<div class="thumbnail img-responsive ovr">
-								<img src="assets/images/WinterStorm.jpg">
-								<div class="overlay">
-									<div class="text">Winter Storm</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<a href="#">
-							<div class="thumbnail img-responsive ovr">
-								<img src="assets/images/Tornado.jpg">
-								<div class="overlayLeft">
-									<div class="text">Tornado</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<a href="#">
-							<div class="thumbnail img-responsive ovr">
-								<img src="assets/images/Flood.jpg">
-								<div class="overlay">
-									<div class="text">Flood</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6" >
-						<a href="#">
-							<div class="thumbnail img-responsive ovr">
-								<img src="assets/images/Earthquake.jpg">
-								<div class="overlay">
-									<div class="text">Earthquake</div>
-								</div>
-							</div>
-						</a>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
 	 </div>
 
 	<footer>
@@ -197,10 +145,11 @@
     <!--/.footer-bottom-->
 </footer>
 
-	<script src="assets/libraries/jquery-3.2.1.min.js"></script>
-	<script src="assets/libraries/jquery-2.2.4.min.js"></script>
-	<script type="text/javascript" src="assets/libraries/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
+	<script src="../assets/libraries/jquery-3.2.1.min.js"></script>
+	<script src="../assets/libraries/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="../assets/libraries/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="../js/preparations.js"></script>
 
 </body>
 </html>
