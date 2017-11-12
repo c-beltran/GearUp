@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var animating; //flag to prevent quick multi-click glitches
 
   $(".next").click(function(){
+    console.log("going to next");
+
     if(animating) return false;
     animating = true;
     
@@ -90,4 +92,25 @@ document.addEventListener("DOMContentLoaded", function(event) {
     return false;
   })	
   // END FORM FUNCTIONALITY
+
+  document.getElementById('shelters').addEventListener("click", function( innerEvent ) {
+
+    var url = "https://data.cityofnewyork.us/resource/addd-ji6a.json"
+    $.getJSON(url, function(result){
+    data = result;
+      
+      $("#myOl1").empty();
+      var items = [];
+      $.each(result, function(i, field){
+        var item = "";
+        console.log(field);
+
+        items.push("<li><i class='fa fa-home' aria-hidden='true'></i>" +"City: "+field.city +"; address: "+field.address+"</li>");
+    });
+      $("#myOl1").append(items.join(''));
+      var list = document.getElementById("result1");
+      list.style.display = "block";
+    });
+  });
+
 });

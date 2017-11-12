@@ -16,6 +16,10 @@ body{
   background-size: cover;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-nav li a:hover,
 .navbar-inverse .navbar-nav li.active a:hover {
@@ -90,7 +94,7 @@ body{
 #body1 {
   /*color: #ffffff;*/
   background: #cdd5d8 repeat fixed;
-  /* min-height: 1000px; */
+  min-height: 800px;
   background-size: cover;
   background-position: center;
 }
@@ -107,6 +111,7 @@ body{
 #pre1 {
   background-size: cover;
   background-position: center;
+  min-height: 1000px;
 }
 
 .content{
@@ -514,6 +519,39 @@ a:hover{
   box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
 }
 
+#msform .action-button-top {
+  width: 90%;
+  background: #ee0979;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+
+#msform .action-button-top:hover, #msform .action-button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #ee0979;
+}
+
+#msform .action-button-top-disabled {
+  width: 90%;
+  background: #C5C5F1;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+
+/* #msform .action-button-top-disabled:hover, #msform .action-button-previous:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+} */
+
+
 /*headings*/
 .fs-title {
   font-size: 28px;
@@ -527,6 +565,15 @@ a:hover{
 .fs-subtitle {
   font-weight: normal;
   font-size: 24px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.fs-section-title {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 8px;
   color: #666;
   margin-bottom: 20px;
 }
@@ -595,5 +642,21 @@ a:hover{
     counter-reset: step;
   }
 } 
+
+fieldset .fa {
+  font-size: 6em;
+  padding: 8px;
+}
+
+fieldset ul .fa {
+  font-size: 1.5em;
+  padding-right: 8px;
+}
+
+#result1 {
+  max-height: 150px;
+  display: none;
+  overflow-y: scroll;
+}
 
 /* END FORM STYLES */

@@ -22,14 +22,14 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#"><img src="../assets/images/Logo.png" id="logo"></a>
+				<a href="../index.html"><img src="../assets/images/Logo.png" id="logo"></a>
 				<!-- <a class="navbar-brand" href="#home"><i class="fa fa-tachometer fa-lg" aria-hidden="true"></i> GearUp </a> -->
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#home">Home</a></li>
+					<li class="active"><a href="../index.html">Home</a></li>
 					<li><a href="#services">Common Disasters</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Assistant  <i class="fa fa-user-circle" aria-hidden="true"></i><span class="caret"></span></a>
@@ -70,20 +70,37 @@
                                 <input type="button" name="next" class="next action-button" value="Next"/>
                             </fieldset>
                             <fieldset>
-                                <h2 class="fs-title">Social Profiles</h2>
-                                <h3 class="fs-subtitle">Your presence on the social network</h3>
-                                <input type="text" name="twitter" placeholder="Twitter"/>
-                                <input type="text" name="facebook" placeholder="Facebook"/>
-                                <input type="text" name="gplus" placeholder="Google Plus"/>
+                                <h2 class="fs-title">Communication</h2>
+                                <h3 class="fs-subtitle">Keep your family connected in case of emergencies</h3>
+                                <h3 class="fs-section-title">Contact 1:</h3>
+                                <input type="text" name="name" placeholder="Name"/>
+                                <input type="text" name="phone" placeholder="Phone Number"/>
+                                <input type="text" name="address" placeholder="Address"/>
                                 <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                                 <input type="button" name="next" class="next action-button" value="Next"/>
                             </fieldset>
                             <fieldset>
-                                <h2 class="fs-title">Create your account</h2>
-                                <h3 class="fs-subtitle">Fill in your credentials</h3>
-                                <input type="text" name="email" placeholder="Email"/>
-                                <input type="password" name="pass" placeholder="Password"/>
-                                <input type="password" name="cpass" placeholder="Confirm Password"/>
+                                <h2 class="fs-title">Emergency Meeting</h2>
+                                <h3 class="fs-subtitle">Make sure you and your family have a safe location to meet up</h3>
+
+                                <div>
+                                  <input type="button" name="findFamily" class="action-button-top-disabled" value="Find Family Coming Soon" disabled/><br/>
+                                  <input id ="shelters" type="button" name="nearestShelters" class="action-button-top" value="NearestShelter"/>                                
+                                  <div id="result1">
+                                    <ul id="myOl1"></ul>
+                                  </div>
+                                </div>
+
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                                <input type="button" name="next" class="next action-button" value="Next"/>
+                            </fieldset>
+                            <fieldset>
+                                <h2 class="fs-title">Social Profiles</h2>
+                                <h3 class="fs-subtitle">Congratulations!<br>Your emergency kit is ready to be shared</h3>
+                                <h3 class="fs-subtitle"></h3>
+                                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-google-plus-official" aria-hidden="true"></i></a>
                                 <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                                 <input type="submit" name="submit" class="submit action-button" value="Submit"/>
                             </fieldset>
